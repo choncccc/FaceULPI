@@ -9,3 +9,6 @@ facenet-pytorch
 faiss-cpu
 scikit-learn
 tqdm
+cmake
+dlib-bin
+face_recognition
