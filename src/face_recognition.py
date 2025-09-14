@@ -40,9 +40,8 @@ class FaceRecognition:
         return cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
     def build_index(self):
-        # build FAISS index from dataset images
-        self.embeddings = []  # reset
-        self.labels = []      # reset
+        self.embeddings = []
+        self.labels = []     
 
         valid_exts = (".jpg", ".jpeg", ".png")
         for file in os.listdir(self.dataset_dir):
