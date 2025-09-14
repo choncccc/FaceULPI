@@ -1,5 +1,5 @@
 from src.face_recognition import FaceRecognition
 
-fr = FaceRecognition()
-results = fr.recognize("is_kenjie.jpg")
-print(results)
+fr = FaceRecognition(dataset_dir="dataset")
+label, dist = fr.recognize("not_kenjie.jpg")
+print("Result:", label, "| Distance:", dist)
