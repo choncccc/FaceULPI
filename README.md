@@ -7,5 +7,5 @@ Each image has **512-dimensional vector embedding**
 Recognition based on **distance threshold**
 
 ** > .09 = not match ** </br>
-** 0.2 – 0.6 usually match **
+** 0.2 – 0.6 usually match ** </br>
 ** 0.0 same face **
