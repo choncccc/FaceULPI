@@ -6,6 +6,6 @@ Each image has **512-dimensional vector embedding**
 **Similarity Search**: FAISS (Facebook AI Similarity Search)
 Recognition based on **distance threshold**
 
-** > .09 = not match **\n
-** 0.2 – 0.6 usually match **\n
-** 0.0 same face **\n
+** > .09 = not match ** </br>
+** 0.2 – 0.6 usually match **
+** 0.0 same face **
